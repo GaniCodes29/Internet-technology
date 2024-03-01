@@ -1,0 +1,42 @@
+.container {
+    height: 500px;
+    width: 75%;
+    border: 1px solid gray;
+    padding: 1em;
+    display: grid;
+   grid-template-areas: 
+   "one one one one two"
+   "one one one one two"
+   "one one one one two"
+   "one one one one three"
+   "one one one one three"
+   "one one one one three";
+    gap: 1em;
+    
+}
+.centerFlex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cell {
+    border: 1px solid teal;
+}
+.one {
+    grid-area:one ;
+}
+.two {
+    grid-area: two;
+}
+.three {
+    grid-area: three;
+}
+.four {
+    grid-area: four;
+}
+.five {
+    grid-area: five;
+}
+.six {
+    grid-area: six;
+}
